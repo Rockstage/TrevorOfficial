@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trevor</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+<body>
+    <div class="container-fluid">
+      <header>
+        <a href="#" class="logo">Trevor</a>
+        <span class="logo_description">your personal assistant</span>
+        <%= link_to(image_tag("Logo.png", class: 'logo_image'), root_path) %>
+      </header>
+
+  		<%= yield %>
+  	        <!-- FOOTER -->
+      <footer>
+        <p>© 2014 Trevor Corporation · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+    </div><!-- /.container-fluid -->
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script type="text/javascript">
+    $('.carousel').carousel({
+      interval: 10000
+    })
+  </script>
+</body>
+</html>
