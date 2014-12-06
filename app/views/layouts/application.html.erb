@@ -26,14 +26,20 @@
   		<%= yield %>
   	        <!-- FOOTER -->
       <footer>
-        <p>© 2014 Trevor Corporation · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p><%= "© 2014, George Petrov & Niki Georgiev" %> · <a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a></p>
       </footer>
+   
     </div><!-- /.container-fluid -->
+  
+    <!-- TERMS AND CONDITIONS -->
+    <%= render template: 'layouts/_terms' %>
+
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <script type="text/javascript">
     $('.carousel').carousel({
       interval: 10000
     })
   </script>
+  <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
 </body>
 </html>
