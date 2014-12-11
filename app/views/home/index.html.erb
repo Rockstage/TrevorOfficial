@@ -14,8 +14,8 @@
       </ol>
       <div class="carousel-inner" role="listbox">
 
-        <div class="item active">
-          <%= image_tag('S1.png', style: "width: 100%;") %>
+        <div class="item active" style="background-image: url('<%= image_url('S1.png') %>');">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Success is a mindset.</h1>
@@ -24,8 +24,8 @@
           </div>
         </div>
 
-        <div class="item">
-          <%= image_tag('S2.png', style: "width: 100%;") %>
+        <div class="item" style="background-image: url('<%= image_url('S2.png') %>');">
+          <% if false %><%= image_tag('S2.png', style: "width: 100%;") %><% end %>
           <div class="container">
             <div class="carousel-caption">
               <h1>Embrace the chaos.</h1>
@@ -34,44 +34,45 @@
           </div>
         </div>
 
-        <div class="item">
-          <%= image_tag('S3.png', style: "width: 100%;") %>
+        <div class="item" style="background-image: url('<%= image_url('S3.png') %>');">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Leadership is from within.</h1>
-              <p>Trevor helps you achieve business goals in realtime and track performance anytime.<br/>Empower your team, and Trevor will empower you.</p>
+              <p>Trevor helps you achieve business goals in realtime and track performance anytime.<br/>Empower your team, and let Trevor empower you.</p>
             </div>
           </div>
         </div>
 
-        <div class="item">
-          <%= image_tag('S4.png', style: "width: 100%;") %>
+        <div class="item" style="background-image: url('<%= image_url('S4.png') %>');">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Intelligence is your weapon.</h1>
-              <p>Having your personal assistant anytime, anywhere gives you<br/>the cutting edge for supremacy.</p>
+              <p>Having your personal assistant anytime, anywhere gives you<br/>the competitive advantage you need.</p>
+              <% if false %> cutting edge for supremacy. <% end %>
             </div>
           </div>
         </div>
 
-        <div class="item">
-          <%= image_tag('S5.png', style: "width: 100%;") %>
+        <div class="item" style="background-image: url('<%= image_url('S5.png') %>');">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Take a moment to yourself.</h1>
               <p>And let Trevor do his thing...
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download now.</a></p>
+              <p><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), root_url %></p>
             </div>
           </div>
         </div>
 
-        <div class="item">
-          <%= image_tag('SlideTeam.jpg', style: "width: 100%;") %>
+        <div class="item" style="background-image: url('<%= image_url('SlideTeam.jpg') %>');">
+          
           <div class="container">
             <div class="carousel-caption">
-              <h1>Trevor is our commitment.</h1>
-              <p>To empower your day, your life, career, family, and future... together.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Watch the video</a> | <a class="btn btn-lg btn-primary btn-info" href="#" role="button">Join the community</a></p>
+              <h1><a href="#">Play video</a></h1>
+              <p>and<br /><a href="#">Read the latest news.</a></p>
+              <p><br/><br/><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), root_url %></p>
             </div>
           </div>
         </div>

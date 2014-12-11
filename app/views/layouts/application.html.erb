@@ -18,15 +18,16 @@
 <body>
     <div class="container-fluid">
       <header>
-        <a href="#" class="logo">Trevor</a>
-        <span class="logo_description">your personal assistant</span>
-        <%= link_to(image_tag("Logo.png", class: 'logo_image'), root_path) %>
+        <a href="<%= root_path %>" class="logo">Trevor</a>
+        <span class="logo_description hidden-sm hidden-xs">your personal assistant</span>
+        
+        <%= image_tag('Logo.png',class: 'logo_image') %>
       </header>
 
   		<%= yield %>
   	        <!-- FOOTER -->
       <footer>
-        <p><%= "© 2014, George Petrov & Niki Georgiev" %> · <a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a></p>
+        <p><%= "© 2014, George Petrov & Niki Georgiev" %> · <a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a> · <%= link_to "Support", support_path %></p>
       </footer>
    
     </div><!-- /.container-fluid -->

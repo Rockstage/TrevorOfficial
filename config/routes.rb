@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get 'meet_trevor', to: 'home#meet_trevor', as: 'meet_trevor'
+  get 'support', to: 'home#support', as: 'support'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
