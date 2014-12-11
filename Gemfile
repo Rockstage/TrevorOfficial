@@ -13,6 +13,7 @@ group :production do
 end
 
 gem 'rails_12factor', group: :production
+gem 'rails_serve_static_assets', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
