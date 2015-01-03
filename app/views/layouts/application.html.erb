@@ -4,7 +4,8 @@
   <title>Trevor</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <% if false %><meta name="viewport" content="width=device-width, initial-scale=1"><% end %>
+  <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
@@ -18,15 +19,55 @@
 
 <body>
     <div class="container-fluid">
+      <% if false %>
       <header>
         <a href="<%= root_path %>" class="logo">Trevor</a>
         <span class="logo_description hidden-sm hidden-xs">your personal assistant</span>
         
         <%= image_tag('Logo.png',class: 'logo_image') %>
       </header>
+      <% end %>
+
+      <header id="ha-header" class="ha-header ha-header-large">
+          <div class="ha-header-perspective">
+              <div class="ha-header-front">
+                
+                <h1>
+                  <%= image_tag('AppIconClippedSmall.png', class: "appIcon") %>
+                  <span>
+                    <a href="#">T R E V O R</a>
+                  </span>
+                </h1>
+                <nav>
+                    <a href="#intro">Trevor v1.0</a>
+                    <a href="#myCarousel">Features</a>
+                    <a href="#aboutUs">About us</a>
+                    <a href="#getTrevor">Get Trevor now</a>
+                </nav>
+              </div>
+              <div class="ha-header-bottom">
+                  <nav>
+                      Core Features: 
+                      <a data-target="#myCarousel" data-slide-to="0">Task Management</a>
+                      <a data-target="#myCarousel" data-slide-to="0">Time Management</a>
+                      <a data-target="#myCarousel" data-slide-to="1">Project Management</a>
+                      <a data-target="#myCarousel" data-slide-to="2">Collaboration</a>
+                      <a data-target="#myCarousel" data-slide-to="3">Personal Assistance</a>
+                      <a data-target="#myCarousel" data-slide-to="4">Trevor</a>
+                  </nav>
+              </div>
+          </div>
+      </header>
+
+
+
 
   		<%= yield %>
-  	        <!-- FOOTER -->
+
+
+
+
+      <!-- FOOTER -->
       <footer>
         <p><%= "© 2014, George Petrov & Niki Georgiev" %> · <a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a> · <%= link_to "Support", support_path %></p>
       </footer>
@@ -188,11 +229,86 @@
 
   <script type="text/javascript">
     $('.carousel').carousel({
-      interval: 10000
+      interval: false
     })
   </script>
   <script type="text/javascript">
     (function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);
+  </script>
+  <script type="text/javascript">
+    var $head = $( '#ha-header' );
+    $( '.ha-waypoint' ).each( function(i) {
+      var $el = $( this ),
+        animClassDown = $el.data( 'animateDown' ),
+        animClassUp = $el.data( 'animateUp' );
+
+      $el.waypoint( function( direction ) {
+        if( direction === 'down' && animClassDown ) {
+          $head.attr('class', 'ha-header ' + animClassDown);
+        }
+        else if( direction === 'up' && animClassUp ){
+          $head.attr('class', 'ha-header ' + animClassUp);
+        }
+      }, { offset: '60%' } );
+    } );
+  </script>
+  <script type="text/javascript">
+    $(window).scroll(function(){
+        var window_top = $(window).scrollTop() + 12; // the "12" should equal the margin-top value for nav.stick
+        var div_top = $('#nav-anchor').offset().top;
+            if (window_top > div_top) {
+                $('nav').addClass('stick');
+            } else {
+                $('nav').removeClass('stick');
+            }
+    });
+
+    /**
+     * This part causes smooth scrolling using scrollto.js
+     * We target all a tags inside the nav, and apply the scrollto.js to it.
+     */
+    $("nav a").click(function(evn){
+        evn.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash); 
+    });
+
+    /**
+     * This part handles the highlighting functionality.
+     * We use the scroll functionality again, some array creation and 
+     * manipulation, class adding and class removing, and conditional testing
+     */
+    var aChildren = $("nav li").children(); // find the a children of the list items
+    var aArray = []; // create the empty aArray
+    for (var i=0; i < aChildren.length; i++) {    
+        var aChild = aChildren[i];
+        var ahref = $(aChild).attr('href');
+        aArray.push(ahref);
+    } // this for loop fills the aArray with attribute href values
+
+    $(window).scroll(function(){
+        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
+        var windowHeight = $(window).height(); // get the height of the window
+        var docHeight = $(document).height();
+
+        for (var i=0; i < aArray.length; i++) {
+            var theID = aArray[i];
+            var divPos = $(theID).offset().top; // get the offset of the div from the top of page
+            var divHeight = $(theID).height(); // get the height of the div in question
+            if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+                $("a[href='" + theID + "']").addClass("nav-active");
+            } else {
+                $("a[href='" + theID + "']").removeClass("nav-active");
+            }
+        }
+
+        if(windowPos + windowHeight == docHeight) {
+            if (!$("nav li:last-child a").hasClass("nav-active")) {
+                var navActiveCurrent = $(".nav-active").attr("href");
+                $("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
+                $("nav li:last-child a").addClass("nav-active");
+            }
+        }
+    });
   </script>
 </body>
 </html>
