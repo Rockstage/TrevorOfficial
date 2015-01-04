@@ -36,13 +36,17 @@
                   <%= image_tag('AppIconClippedSmall.png', class: "appIcon") %>
                   <span>
                     <a href="#">T R E V O R</a>
+
                   </span>
+                  <span class="badge">iOS / iPhone</span>
+                  <span class="badge">Android (soon)</span>
+                  <span class="badge">Web (soon)</span>
                 </h1>
                 <nav>
-                    <a href="#intro">Trevor v1.0</a>
-                    <a href="#myCarousel">Features</a>
-                    <a href="#aboutUs">About us</a>
-                    <a href="#getTrevor">Get Trevor now</a>
+                    <a href="#intro" class="scrollTo">Trevor v1.0</a>
+                    <a href="#myCarousel" class="scrollTo">Features</a>
+                    <a href="#aboutUs" class="scrollTo">About us</a>
+                    <a href="#getTrevor" class="scrollTo">Get Trevor now</a>
                 </nav>
               </div>
               <div class="ha-header-bottom">
@@ -249,7 +253,7 @@
         else if( direction === 'up' && animClassUp ){
           $head.attr('class', 'ha-header ' + animClassUp);
         }
-      }, { offset: '60%' } );
+      }, { offset: '50%' } );
     } );
   </script>
   <script type="text/javascript">
@@ -267,7 +271,11 @@
      * This part causes smooth scrolling using scrollto.js
      * We target all a tags inside the nav, and apply the scrollto.js to it.
      */
-    $("nav a").click(function(evn){
+    // $("nav a").click(function(evn){
+    //     evn.preventDefault();
+    //     $('html,body').scrollTo(this.hash, this.hash); 
+    // });
+    $("a.scrollTo").click(function(evn){
         evn.preventDefault();
         $('html,body').scrollTo(this.hash, this.hash); 
     });

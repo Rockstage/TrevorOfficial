@@ -301,6 +301,10 @@ section p {
 			text-decoration: underline;
 		}
 	}
+	nav {
+		border-top: 1px solid rgba(255,255,255,0.5);
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+	}
 	-webkit-transition: top 0.5s;
 	-moz-transition: top 0.5s;
 	transition: top 0.5s;
@@ -407,13 +411,13 @@ section p {
 
 .ha-header-fullscreen {
 	height: 100%;
-	opacity: 0.9;
+	
 
 }
 
 .ha-header-fullscreen .ha-header-front {
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.85);
 }
 
 .ha-header-fullscreen .ha-header-bottom {
