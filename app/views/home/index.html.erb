@@ -1,234 +1,316 @@
   
-  <div id="intro" class="row dark">
-    <h1 class="text-center">Meet Trevor</h1>
-    <h3 class="text-center">your personal assistant</h3>
-    <hr/>
-    <p class="lead text-center">Trevor, will help you redefine Task management, Time management and Project Management<br />
-    so you can boldly follow your own path to success</p>
-    <hr/>
-    <p class="text-center">
-    We created Trevor, your personal assistant, for the sole purpose of expanding human capabilities.<br />
-    With Trevor, we give you a tool which will empower you as an individual.<br/>
-    <br />
-    Trevor v1.0 is currently available on iOS / iPhone, with other major platforms currently under development.<br/>
-    Explore the core features below...
-    </p>
-    <%= link_to image_tag('arrow-down.png', class: "center-block arrow-down-small"), "#myCarousel", class: "scrollTo" %>
+  <div id="intro" class="row dark parallax">
+    <div class="container">
+      <h1 class="text-center">Meet Trevor</h1>
+      <h3 class="text-center" style="margin-top: 0;">your personal assistant</h3>
+      <br />
+      <hr/>
+      <p class="lead text-center">Trevor, will help you redefine Task management, Time management and Project Management<br />
+      so you can boldly follow your own path to success.
+      </p>
+      <hr/>
+      <br />
+      <p class="text-center">
+      We created Trevor, your personal assistant, for the sole purpose of expanding human capabilities.<br />
+      Trevor's intelligence, combined with his radical interface and powerful functionality is just the empowerment you need in your life.<br/>
+      <br />
+      Explore the core features below...
+      </p>
+      <%= link_to image_tag('arrow-down.png', class: "center-block arrow-down-small"), "#myCarousel", class: "scrollTo" %>
+    </div>
   </div>
   
+
+  <!-- <h1>Success is a mindset.</h1>
+            <p>Trevor helps you set clear goals with visually defined timelines<br/>so you can boldly follow your own path to success.</p> -->
   
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide ha-waypoint" data-ride="carousel" data-animate-down="ha-header-subshow" data-animate-up="ha-header-large">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="5" class=""></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
+  <!-- <h1>Embrace the chaos.</h1>
+            <p>Trevor helps you centralize all the aspects of your life into one elegant system.</p> -->
 
-        <div class="item active" style="background-image: url('<%= image_url('S1.png') %>');">
-          
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Success is a mindset.</h1>
-              <p>Trevor helps you set clear goals with visually defined timelines<br/>so you can boldly follow your own path to success.</p>
+  <!-- <h1>Leadership is from within.</h1>
+            <p>Trevor helps you achieve business goals in realtime and track performance anytime.<br/>Empower your team, and let Trevor empower you.</p> -->
+
+            <!-- <h1>Intelligence is your weapon.</h1>
+            <p>Having your personal assistant anytime, anywhere gives you<br/>the competitive advantage you need.</p> -->
+
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide ha-waypoint" data-ride="carousel" data-animate-down="ha-header-subshow" data-animate-up="ha-header-large">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active" style="background-image: url('<%= image_url('S1.png') %>');">
+        
+        <div class="container">
+          <div class="carousel-caption techCard">
+            
+            <div class="row heading">
+              <h1>Powerful Task Management</h1>
+              
+            </div>
+            <div class="row body">
+              <div class="corner-top-left-small"></div>
+              <p>Trevor gives individuals and organizations powerful, flexible, and efficient Task management features</p>
+              <ul>
+                <li>Create objectives in seconds</li>
+                <li>Add flexible options</li>
+                <li>Assign objectives to team members instantly</li>
+                <li>Easily monitor your, and your team's progress</li>
+              </ul>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="item" style="background-image: url('<%= image_url('S2.png') %>');">
-          <% if false %><%= image_tag('S2.png', style: "width: 100%;") %><% end %>
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Embrace the chaos.</h1>
-              <p>Trevor helps you centralize all the aspects of your life into one elegant system.</p>
+      <div class="item" style="background-image: url('<%= image_url('S2.png') %>');">
+        <div class="container">
+          <div class="carousel-caption techCard">
+            
+            <div class="row heading">
+              <h1>Redefined Time Management</h1>
+              
+            </div>
+            <div class="row body">
+              <div class="corner-top-left-small"></div>
+              <p>Trevor's radical interface lets you actually "see" your time. Managing your most valuable asset has never been more clear.</p>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="item" style="background-image: url('<%= image_url('S3.png') %>');">
-          
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Leadership is from within.</h1>
-              <p>Trevor helps you achieve business goals in realtime and track performance anytime.<br/>Empower your team, and let Trevor empower you.</p>
+      <div class="item" style="background-image: url('<%= image_url('S2.png') %>');">
+        <div class="container">
+          <div class="carousel-caption techCard">
+            
+            <div class="row heading">
+              <h1>Smart Project Management</h1>
+              
+            </div>
+            <div class="row body">
+              <div class="corner-top-left-small"></div>
+              <p>Trevor's Project Management System lets you easily manage a team / organization of any size and complexity.</p>
+              <ul>
+                <li>Create any organizational structure, from a university team to a global enterprise</li>
+                <li>Add friends, colleges, employees and family into your projects / organizations</li>
+                <li>Monitor all of your Projects' progress at any time</li>
+                <li>Centralize all the aspects of your life into one elegant system</li>
+              </ul>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="item" style="background-image: url('<%= image_url('S4.png') %>');">
-          
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Intelligence is your weapon.</h1>
-              <p>Having your personal assistant anytime, anywhere gives you<br/>the competitive advantage you need.</p>
-              <% if false %> cutting edge for supremacy. <% end %>
+      <div class="item" style="background-image: url('<%= image_url('S3.png') %>');">
+        
+        <div class="container">
+          <div class="carousel-caption techCard">
+            
+            <div class="row heading">
+              <h1>RealTime Collaboration</h1>
+              
+            </div>
+            <div class="row body">
+              <div class="corner-top-left-small"></div>
+              <p>Trevor's powerful cloud architectures allows seamless realtime collaboration with your teams.</p>
+              <ul>
+                <li>Work in a dynamic, up-to-date environment where updates are pushed instantly</li>
+                <li>Collaborate on your projects and objectives in absolute syncrony</li>
+                <li>Your Data is synced to the cloud instantly and securely</li>
+              </ul>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="item" style="background-image: url('<%= image_url('S5.png') %>');">
-          
-          <div class="container">
-            <div class="carousel-caption">
+      <div class="item" style="background-image: url('<%= image_url('S4.png') %>');">
+        
+        <div class="container">
+          <div class="carousel-caption techCard">
+            
+            <div class="row heading">
+              <h1>Personal Assistant</h1>
+              
+            </div>
+            <div class="row body">
+              <div class="corner-top-left-small"></div>
+              <p>Trevor's intelligent algorithms always keep you up-to-date with the important stuff in your projects, so you can work smart and save time.</p>
+              <ul>
+                <li>Personalized experience</li>
+                <li>Instant, intelligent notifications</li>
+                <li>Progress reports</li>
+                <li>Uninterrupted workflow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item" style="background-image: url('<%= image_url('S5.png') %>');">
+        
+        <div class="container">
+
+          <div class="carousel-caption techCard">
+
+            <div class="row heading">
               <h1>Take a moment to yourself.</h1>
-              <p>And let Trevor do his thing...
+            </div>
+
+            <div class="row body">
+              <div class="corner-top-left-small"></div>
+              <p>And let Trevor do his thing...</p>
               <p><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), root_url %></p>
             </div>
+
           </div>
         </div>
-
-        <div class="item" style="background-image: url('<%= image_url('SlideTeam.jpg') %>');">
-          
-          <div class="container">
-            <div class="carousel-caption">
-              <h1><a href="#">Play video</a></h1>
-              <p>and<br /><a href="#">Read the latest news.</a></p>
-              <p><br/><br/><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), root_url %></p>
-            </div>
-          </div>
-        </div>
-
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
 
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
+
+    
+  <div class="ha-waypoint row dark left-padding" data-animate-down="ha-header-small" data-animate-up="ha-header-subshow">
     <div class="container">
-      <div class="ha-waypoint row dark left-padding" data-animate-down="ha-header-small" data-animate-up="ha-header-subshow">
-        <h3 class="text-center">What the Industry has to say:</h3>
-        <div class="col-sm-4 full-height">
-          <p class="lead" style="margin-top: 50px;">Trevor is a brilliant concept, they've got our full support!<br/> - Mashable</p>
-        </div>
-        <div class="col-sm-4">
-          <p class="lead" style="margin-top: 50px;">We literally stepped into the future with Trevor<br/> - TechCrunch</p>
-        </div>
-        <div class="col-sm-4">
-          <p class="lead" style="margin-top: 50px;">My very own personal assistant that actually works? Now thats awesome!<br/> - The Verge</p>
-        </div>
+      <h3 class="text-center">What the Industry has to say:</h3>
+      <hr class="full" />
+      <div class="col-sm-4 full-height">
+        <p class="lead">Trevor is a brilliant concept, <br />they've got our full support!<br/> <span class="blue">- Mashable</span></p>
+      </div>
+      <div class="col-sm-4">
+        <p class="lead">We literally stepped into the future <br/>with Trevor<br/> <span class="blue">- TechCrunch</span></p>
+      </div>
+      <div class="col-sm-4">
+        <p class="lead">My very own personal assistant?<br/> Now thats awesome!<br/> <span class="blue">- The Verge</span></p>
+      </div>
+      <hr class="full" />
+    </div>
+  </div>
+
+  <div id="aboutUs" class="darkGlass row dark left-padding">
+    <div class="corner-top-left"></div>
+    <div class="container">
+      <div class="col-md-12">
+        <br />
+        <br />
+        <h2>About <small>The Project</small></h2>
+        <p class="lead gray">
+          We are an organization commited to empowering the human individual, and Trevor is the first step. Our current team consists of bold visionaries, scientists and leaders, aiming to bring that which the future holds, today. You can learn more about our mission from the video below.
+        </p>
+        <hr class="full" />
+      </div>
+      <div class="col-sm-6">
+        <iframe width="100%" height="378" src="//www.youtube.com/embed/uERMICjSBr8?controls=2" frameborder="0" controls="2" allowfullscreen class="pull-right"></iframe>
+      </div>
+      <div class="col-sm-6 socialLinks">
+        <br />
+        <h3>Social Channels</h3>
+        <%= link_to "Facebook", "#", style: 'padding-right: 30px;' %><%= link_to "Twitter", "#" %><br />
+        <br />
+        <h3>The Trevor Community</h3>
+        <%= link_to "Join Community", "#" %>
+        <br />
+        <h3>Support the Project</h3>
+        <%= link_to "@ KickStarter", "#" %>
+        <br />
+      </div>
+    </div>
+    <div class="corner-bottom-right"></div>
+  </div>
+
+  <div class="row dark left-padding">
+    <div class="container">
+      <h3 class="text-center">Success is a mindset.</h3>
+      <hr class="full" />
+      <div class="col-sm-4 full-height">
+        <p class="lead"><span class="blue">Set clear goals,</span> into small steps, with visually defined timelines.</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="lead"><span class="blue">Collaborate</span> with others towards your goals.</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="lead">Boldly follow your own <span class="blue">path to success.</span></p>
+      </div>
+      <hr class="full" />
+        <h4 class="text-center">It's time for something new, exciting. It's time for change, a step into the future.<br/>
+        Follow your biggest ambitions with the help of Trevor, your personal assistant.</h4><br />
+    </div>
+  </div>
+
+  <div id="aboutUs" class="darkGlass row dark left-padding">
+    <div class="corner-top-left"></div>
+    <div class="container">
+      
+      <% if false %>
+      <div class="col-md-12">
+        <br />
+        <br />
+        <h2>Pricing <small>and Availability</small></h2>
+        <p class="lead">
+          Trevor v1.0 is just the starting step of an ambitios vision, and it all starts now - on iOS / iPhone, with other major platforms due for release within the following months.<br />
+        </p>
+        <hr class="full" />
+      </div>
+      <div class="col-sm-6">
+        <iframe width="100%" height="378" src="//www.youtube.com/embed/uERMICjSBr8?controls=2" frameborder="0" controls="2" allowfullscreen class="pull-right"></iframe>
+      </div>
+      <div class="col-sm-6 pricingText">
+        <h3>Trevor's Monthly subscription</h3>
+        <p>Experience Trevor's full functionality for $4.99/mo.</p>
+        <h3>Trevor for Business</h3>
+        <p>Transcend your business into the future for $2 per member</p>
+        <h3>Try Trevor Free for 14 days</h3>
+        <p>Pioneer into a new horizon, absolutley free for 14 days, now</p>
+        <%= link_to "Download for iOS", "#" %>
+      </div>
+      <% end %>
+      <div class="col-md-12">
+        <br />
+        <br />
+        <h2>Pricing <small>and Availability</small></h2>
+        <p class="lead gray">
+          Trevor v1.0 is just the starting step of an ambitios vision, and it all starts now - on iOS / iPhone, with other major platforms due for release within the following months.<br />
+        </p>
         <hr class="full" />
       </div>
 
-      <div id="aboutUs" class="row dark left-padding">
-        <div class="col-md-12">
-          <br />
-          <br />
-          <h2>About <small>The Project</small></h2>
-          <p class="lead">Trevor is a product of an organization commited to empowering the human individual. Our current team consists of bold visionaries, scientists and leaders, aiming to bring that which the future holds, today. We all share the vision of giving everyone we can a personal assistant which will empower their life.
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <iframe width="100%" height="378" src="//www.youtube.com/embed/uERMICjSBr8" frameborder="0" allowfullscreen class="pull-right"></iframe>
-        </div>
-        <div class="col-sm-6">
-          <hr />
-          <h3>Social Channels</h3>
-          <%= link_to "Facebook", "#" %> | <%= link_to "Twitter", "#" %><br />
-          <hr />
-          <h3>The Trevor Community</h3>
-          <%= link_to "Join Community", "#" %>
-          <hr />
-          <h3>Support the Project</h3>
-          <%= link_to "@ KickStarter", "#" %>
-          <hr />
-        </div>
-      
+      <div class="col-sm-4 pricingText">
+        <h4>Trevor's Monthly subscription</h4>
+        <p>Experience Trevor's full functionality for <br/>$4.99/mo.</p>
       </div>
-
-          <div class="row" >
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-sm-4 pricingText">
+        <h4>Trevor for Business</h4>
+        <p>Transcend your business into the future for <br/>$2 per member</p>
       </div>
-
-          <div class="row">
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-sm-4 pricingText">
+        <h4>Try Trevor Free for 14 days</h4>
+        <p>Pioneer into a new horizon, absolutley free for <br/>14 days, now</p>
       </div>
-
-          <div class="row">
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-      <div class="row">
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-      <div id="getTrevor" class="ha-waypoint row" data-animate-down="ha-header-fullscreen" data-animate-up="ha-header-small">
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <hr class="full" />
+      <div class="col-sm-12">
+        <p class="text-center"><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), root_url %></p>
       </div>
     </div>
+    <div class="corner-bottom-right"></div>
+  </div>
+
+  <div id="getTrevor" class="ha-waypoint row" data-animate-down="ha-header-fullscreen" data-animate-up="ha-header-small">
+  </div>
 
     
 

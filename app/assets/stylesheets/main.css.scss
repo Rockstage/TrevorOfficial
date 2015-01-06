@@ -32,19 +32,74 @@ footer {
 
 }
 
-#intro {
-	background-image: url('intro.jpg');
+#intro { 
+	background-image: url('intro28.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center 0%;
 	height: 100vh;
+	min-height: 630px;
 	h1 {
 		margin-top: 200px;
 	}
+
 }
 
-#aboutUs {
-	
+.darkGlass {
+	background-color: rgba(0,0,0,0.5);
+	// background-color: rgba(255,255,255,0.1);
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.corner-top-left {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 0; 
+	height: 0; 
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid white;
+}
+
+.corner-top-left-small {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 0; 
+	height: 0; 
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid white;
+}
+
+.corner-top-right {
+	position: relative;
+	top: 0;
+	left: 98%;
+	width: 0; 
+	height: 0; 
+	border-bottom: 30px solid transparent;
+	border-right: 30px solid white;
+}
+
+.corner-bottom-left {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-left: 30px solid white;
+}
+
+.corner-bottom-right {
+	position: relative;
+	bottom: 0;
+	left: 98%;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-right: 30px solid white;
 }
 
 // header {
@@ -107,18 +162,22 @@ $blue: #73CCFF;
 $orange: #F5A623;
 $zen: #50E3C2;
 $white: rgba(255,255,255,0.8);
+$gray: rgba(255,255,255,0.6);
 
 .blue {
-	color: $blue;
+	color: $blue !important;
 }
 .orange {
-	color: $orange;
+	color: $orange !important;
 }
 .zen {
-	color: $zen;
+	color: $zen !important;
 }
 .white {
-	color: $white;
+	color: $white !important;
+}
+.gray {
+	color: $gray !important;
 }
 .thin {
 	font-weight: 100;
@@ -245,8 +304,11 @@ hr {
 	height: 100vh;
 	min-height: 600px;
 	width: 100%;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+
 	.item {
 		height: 100vh;
+		min-height: 600px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -266,14 +328,20 @@ hr {
 
 .carousel-caption {
 	// top: 30%;
-	top: 20vw;
+	position: absolute;
+	bottom: 100px;
 
-	height: 24%;
-	height: 15vw;
+	left: 15%;
+	right: 45%;
+
+	padding-top: 0;
+	padding-bottom: 0;
+	// height: 24%;
+	// height: 15vw;
 	background-color: rgba(0,0,0,0.5);
 	h1 {
 		font-weight: 100;
-		font-size: 5vw;
+		font-size: 3em;
 		a {
 			color: white;
 			text-decoration: none;
@@ -283,7 +351,8 @@ hr {
 		}
 	}
 	p {
-		font-size: 1.5vw;
+		font-size: 1.2em;
+		font-weight: 300;
 		a {
 			color: white;
 			text-decoration: none;
@@ -291,9 +360,6 @@ hr {
 				color: #F5A623;
 			}
 		}
-	}
-	.carousel-inner {
-		height: 500px;
 	}
 
 	@media(max-width:767px){
@@ -319,11 +385,13 @@ hr {
 	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 10%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0.25) 90%,rgba(0,0,0,0) 100%); /* IE10+ */
 	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 10%,rgba(0,0,0,0.5) 25%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0.25) 90%,rgba(0,0,0,0) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-8 */
-	-webkit-animation: fadein 5s;
-       -moz-animation: fadein 5s;
-        -ms-animation: fadein 5s;
-         -o-animation: fadein 5s;
-            animation: fadein 5s;
+	
+
+	-webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
 }
 
 .storeButton {
@@ -347,9 +415,40 @@ a.meetTrevor {
 	}
 }
 
+.socialLinks {
+	a {
+		font-size: 1.5em;
+		text-transform: uppercase;
+		color: $blue;
+	}
+}
 
+.pricingText p {
+	margin-bottom: 35px;
+	color: $blue;
+	font-size: 1.2em;
+	font-weight: 300;
+}
 
-
+.techCard {
+	border-radius: 20px;
+	border: 1px solid rgba(255,255,255,0.8);
+	background: rgba(0,0,0,0.5);
+	text-align: left;
+	padding-bottom: 10px;
+	.heading {
+		border-bottom: 1px solid rgba(255,255,255,0.8);
+	}
+	h1 {
+		margin-left: 25px;
+	}
+	p {
+		margin-left: 50px;
+	}
+	ul {
+		margin-left: 65px;
+	}
+}
 
 
 
