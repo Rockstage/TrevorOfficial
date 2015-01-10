@@ -38,9 +38,13 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center 0%;
 	height: 100vh;
-	min-height: 630px;
+	min-height: 780px;
 	h1 {
-		margin-top: 200px;
+		margin-top: 180px;
+	}
+	p {
+		font-size: 1.8em;
+		font-weight: lighter;
 	}
 
 }
@@ -420,7 +424,40 @@ a.meetTrevor {
 		font-size: 1.5em;
 		text-transform: uppercase;
 		color: $blue;
+
+		img {
+			width: 50px;
+			margin: 15px 25px 40px 25px;
+			&:hover {
+				background-color: rgba(255,255,255,0.1);
+				border-radius: 4px;
+			}
+		}
 	}
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.feedback {
+	margin: 25px 0;
+	p {
+		padding-left: 50px;
+		border-left: 1px solid rgba(255,255,255,0.3);
+	}
+}
+.feedback1 {
+	margin: 25px 0;
+	p {
+	border-left: none;
+	margin-left: 50px;
+	}
+}
+
+.introCircle {
+	height: 125px;
+	margin: 0 50px;
+
 }
 
 .pricingText p {

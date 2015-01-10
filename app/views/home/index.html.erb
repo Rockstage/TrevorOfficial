@@ -1,21 +1,34 @@
   
   <div id="intro" class="row dark parallax">
     <div class="container">
-      <h1 class="text-center">Meet Trevor</h1>
-      <h3 class="text-center" style="margin-top: 0;">your personal assistant</h3>
+      <h1 class="text-center" style="margin-bottom: 0;">Meet Trevor</h1>
+      <h3 class="text-center" style="margin-top: 0; font-size: 3.5em;">your personal assistant</h3>
       <br />
-      <hr/>
-      <p class="lead text-center">Trevor, will help you redefine Task management, Time management and Project Management<br />
-      so you can boldly follow your own path to success.
+      <br />
+      <div class="text-center hidden-xs hidden-sm">
+        <%= image_tag('taskCircle.png', class: 'introCircle') %>
+        <%= image_tag('taskCircle.png', class: 'introCircle') %>
+        <%= image_tag('taskCircle.png', class: 'introCircle') %>
+      </div>
+      <br/>
+      <br/>
+      <p class="lead text-center">
+        Trevor will intelligently introduce you to a radically new approach of <br/>Task, Time and Project Management, which will empower your day.
+
+
+<!--         Trevor will intelligenty assist you with your Task, Time and Project management, <br />
+        throught your everyday life, with a radically new approach -->
+
+
+        <!-- through his radical interface and intelligent notifications. -->
+
+        <!-- Trevor, will help you redefine Task management, Time management and Project Management
+      so you can boldly follow your own path to success. -->
       </p>
-      <hr/>
       <br />
-      <p class="text-center">
-      We created Trevor, your personal assistant, for the sole purpose of expanding human capabilities.<br />
-      Trevor's intelligence, combined with his radical interface and powerful functionality is just the empowerment you need in your life.<br/>
-      <br />
+<!--       <p class="text-center">
       Explore the core features below...
-      </p>
+      </p> -->
       <%= link_to image_tag('arrow-down.png', class: "center-block arrow-down-small"), "#myCarousel", class: "scrollTo" %>
     </div>
   </div>
@@ -70,7 +83,7 @@
         </div>
       </div>
 
-      <div class="item" style="background-image: url('<%= image_url('S2.png') %>');">
+      <div class="item" style="background-image: url('<%= image_url('S6.png') %>');">
         <div class="container">
           <div class="carousel-caption techCard">
             
@@ -187,18 +200,18 @@
     
   <div class="ha-waypoint row dark left-padding" data-animate-down="ha-header-small" data-animate-up="ha-header-subshow">
     <div class="container">
-      <h3 class="text-center">What the Industry has to say:</h3>
-      <hr class="full" />
-      <div class="col-sm-4 full-height">
-        <p class="lead">Trevor is a brilliant concept, <br />they've got our full support!<br/> <span class="blue">- Mashable</span></p>
+      <h3 class="text-center">What our customers have to say:</h3>
+      <!-- <hr class="full" /> -->
+      <div class="col-sm-4 feedback1 full-height">
+        <p class="lead"><em>Trevor is a brilliant concept, they've got our full support!<br/></em> <span class="blue">- D. Koleva, NLP Master</span></p>
       </div>
-      <div class="col-sm-4">
-        <p class="lead">We literally stepped into the future <br/>with Trevor<br/> <span class="blue">- TechCrunch</span></p>
+      <div class="col-sm-4 feedback">
+        <p class="lead"><em>We literally stepped into the future with Trevor<br/></em> <span class="blue">- N. Dimitrov, Business Lecturer</span></p>
       </div>
-      <div class="col-sm-4">
-        <p class="lead">My very own personal assistant?<br/> Now thats awesome!<br/> <span class="blue">- The Verge</span></p>
+      <div class="col-sm-4 feedback">
+        <p class="lead"><em>My very own personal assistant? Now thats awesome!<br/></em> <span class="blue">- D. Mirov, Hipstapreneur</span></p>
       </div>
-      <hr class="full" />
+      <!-- <hr class="full" /> -->
     </div>
   </div>
 
@@ -212,21 +225,25 @@
         <p class="lead gray">
           We are an organization commited to empowering the human individual, and Trevor is the first step. Our current team consists of bold visionaries, scientists and leaders, aiming to bring that which the future holds, today. You can learn more about our mission from the video below.
         </p>
+          <p class="text-center">
+          We created Trevor, your personal assistant, for the sole purpose of expanding human capabilities.<br />
+          Trevor's intelligence, combined with his radical interface and powerful functionality is just the empowerment you need in your life.</p>
         <hr class="full" />
       </div>
       <div class="col-sm-6">
         <iframe width="100%" height="378" src="//www.youtube.com/embed/uERMICjSBr8?controls=2" frameborder="0" controls="2" allowfullscreen class="pull-right"></iframe>
       </div>
       <div class="col-sm-6 socialLinks">
+        <p class="text-uppercase white">Social Channels</p>
+        <%= link_to image_tag('socialFacebook.png'), "http://www.facebook.com/trevorcorporation", target: '_blank' %>
+        <%= link_to image_tag('socialTwitter.png'), "http://www.twitter.com/TREVORCORP", target: '_blank' %>
+        <%= link_to image_tag('socialYoutube.png'), "https://www.youtube.com/channel/UCyXVE3OzZSCntJQiua7m_Ow", target: '_blank' %>
         <br />
-        <h3>Social Channels</h3>
-        <%= link_to "Facebook", "#", style: 'padding-right: 30px;' %><%= link_to "Twitter", "#" %><br />
+        <p class="text-uppercase white">Join The Community</p>
+        <%= link_to image_tag('community.png'), "#", target: '_blank' %>
         <br />
-        <h3>The Trevor Community</h3>
-        <%= link_to "Join Community", "#" %>
-        <br />
-        <h3>Support the Project</h3>
-        <%= link_to "@ KickStarter", "#" %>
+        <p class="text-uppercase white">Press Room</p>
+        <%= link_to image_tag('pressroom.png'), "#", target: '_blank' %>
         <br />
       </div>
     </div>

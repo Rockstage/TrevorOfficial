@@ -240,6 +240,9 @@ section p {
 
 .ha-header-large {
 	height: 420px;
+	.ha-header-front {
+		height: 180px;
+	}
 /*	.ha-header-perspective {
 		.ha-header-front {
 			.headerBorder {
