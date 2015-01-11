@@ -1,12 +1,43 @@
-<div class="container" id="support_page">
-	<div class="box dark-gradient">
-		<p>
-			Contact us via:<br/>
-			<a href="mailto:admin@trevorcorporation.com" target="_top">Email</a><br />
-			<a href="https://twitter.com/TREVORCORP">Twitter</a><br />
-			<a href="https://www.facebook.com/trevorcorporation">Facebook</a>
-		</p>
-		<p class="caption">&copy;Trevor Corporation <br /><%= link_to "Back", root_url %></p>
+<% content_for :menulinks do %>
+  <%= link_to "back to Home", root_path %>
+<% end %>
 
+<div id="supportPage" class="darkGlass row dark left-padding">
+	<div class="corner-top-left"></div>
+	<div class="container">
+	  <div class="col-md-12">
+	    <h2 style="padding-top: 100px;">Contact us</h2>
+	    <p class="lead gray">
+	      Contact us anytime at admin@trevorcorporation.com, or by using any of the buttons below. We are eager to hear your feedback.
+	    </p>
+	    <hr class="full" style="margin-top: 20px;" />
+	  </div>
+	  <div class="col-sm-4 socialLinks text-center">
+	    <p class="text-uppercase white">Contact us via:</p>
+		<%= link_to image_tag('email.png'), "mailto:admin@trevorcorporation.com" %><br>
+		
+	  </div>
+	  <div class="col-sm-4 socialLinks text-center">
+	    <p class="text-uppercase white">Social Links</p>
+	    <%= link_to image_tag('socialFacebook.png'), "http://www.facebook.com/trevorcorporation", target: '_blank' %>
+	    <br/>
+	    <%= link_to image_tag('socialTwitter.png'), "http://www.twitter.com/TREVORCORP", target: '_blank' %>
+	    <br/>
+	    <%= link_to image_tag('socialYoutube.png'), "https://www.youtube.com/channel/UCyXVE3OzZSCntJQiua7m_Ow", target: '_blank' %>
+	    <br />
+	  </div>
+	  <div class="col-sm-4 socialLinks text-center">
+	    <p class="text-uppercase white">Join The Community</p>
+	    <%= link_to image_tag('community.png'), "#", target: '_blank' %>
+	    <br />
+	    <p class="text-uppercase white">Press Room</p>
+	    <%= link_to image_tag('pressroom.png'), "#", target: '_blank' %>
+	    <br />
+	  </div>
+	  <div class="col-sm-12">
+	  	<hr class="full" style="margin: 20px 0;" />
+		<p class="caption text-center">&copy;Trevor Corporation <br /><%= link_to "Back", root_url %></p>
+	  </div>
 	</div>
+	<div class="corner-bottom-right"></div>
 </div>

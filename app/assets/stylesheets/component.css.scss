@@ -239,7 +239,8 @@ section p {
 /* Individual states */
 
 .ha-header-large {
-	height: 420px;
+	// height: 420px;
+	height: 180px;
 	.ha-header-front {
 		height: 180px;
 	}
@@ -258,6 +259,7 @@ section p {
 
 .ha-header-small {
 	/*height: 220px;*/
+	// height: 140px;
 	height: 140px;
 	.ha-header-perspective {
 		.ha-header-front {

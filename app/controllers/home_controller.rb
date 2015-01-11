@@ -7,5 +7,8 @@ class HomeController < ApplicationController
 
   def support
   end
+
+  def pressroom
+  end
   
 end

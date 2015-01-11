@@ -14,7 +14,7 @@ html, body {
 .container-fluid {
 	height: 100%;
 	padding: 0;
-	background-color: black;
+	// background-color: black;
 }
 
 footer {
@@ -49,6 +49,12 @@ footer {
 		font-weight: lighter;
 	}
 
+}
+
+#aboutUs {
+	.container {
+		padding-bottom: 30px;
+	}
 }
 
 .darkGlass {
@@ -224,7 +230,8 @@ h5 {
 
 hr {
 	width: 60%;
-	border-top: 1px solid rgba(255,255,255,0.5);
+	border-top: 1px solid rgba(255,255,255,0.2);
+	margin: 50px 0;
 	&.full {
 		width: 100%;
 	}
@@ -244,54 +251,8 @@ hr {
 
 
 
-#support_page {
-	display: block;
-	height: 100%;
-	width: 100%;
-	background-image: url("SlideTeam.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	div {
-		height: 50%;
-		width: 50%;
-		margin: 100px auto;
-		text-align: center;
-		@media(max-width:767px){
-			width: 100%;
-		}
-		p {
-			font-size: 3em;
-			font-weight: 100;
-			color: white;
-		}
-		.caption {
-			margin-top: 50px;
-			font-size: 1vw; 
-			a {
-				margin-top: 20px;
-				font-size: 2vw;
-				@media(max-width:767px){
-					font-size: 1.5em;
-				}
-			}
-			@media(max-width:767px){
-				font-size: 2em;
-			}
-		}
-		a {
-			font-size: 3vw;
-			font-weight: 100;
-			color: #73CCFF;
-			
-			text-decoration: none;
-			&:hover {
-				color: #F5A623;
-			}
-			@media(max-width:767px){
-				font-size: 1.5em;
-			}
-		}
-	}
+#supportPage {
+	
 }
 
 .sectionReset {
@@ -422,6 +383,7 @@ a.meetTrevor {
 }
 
 .socialLinks {
+	padding-left: 20px;
 	a {
 		font-size: 1.5em;
 		text-transform: uppercase;
@@ -462,11 +424,17 @@ a.meetTrevor {
 
 }
 
-.pricingText p {
+.pricingText {
+	p {
 	margin-bottom: 35px;
 	color: $blue;
 	font-size: 1.2em;
 	font-weight: 300;
+	}
+	img {
+		width: 25px;
+		padding-bottom: 5px;
+	}
 }
 
 .techCard {

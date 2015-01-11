@@ -1,4 +1,10 @@
-  
+<% content_for :menulinks do %>
+  <a href="#intro" class="scrollTo">Trevor v1.0</a>
+  <a href="#myCarousel" class="scrollTo">Features</a>
+  <a href="#aboutUs" class="scrollTo">About us</a>
+  <a href="#getTrevor" class="scrollTo">Get Trevor now</a>
+<% end %>
+
   <div id="intro" class="row dark parallax" style="background-image: url('<%= image_url('intro28.jpg') %>');">
     <div class="container">
       <h1 class="text-center" style="margin-bottom: 0;">Meet Trevor</h1>
@@ -71,7 +77,7 @@
             </div>
             <div class="row body">
               <div class="corner-top-left-small"></div>
-              <p>Trevor gives individuals and organizations powerful, flexible, and efficient Task management features</p>
+              <p>Trevor gives individuals and organizations powerful, flexible, and efficient Task management features:</p>
               <ul>
                 <li>Create objectives in seconds</li>
                 <li>Add flexible options</li>
@@ -132,10 +138,11 @@
             </div>
             <div class="row body">
               <div class="corner-top-left-small"></div>
-              <p>Trevor's powerful cloud architectures allows seamless realtime collaboration with your teams.</p>
+              <p>Trevor's powerful cloud architecture allows seamless realtime collaboration with your teams.</p>
               <ul>
                 <li>Work in a dynamic, up-to-date environment where updates are pushed instantly</li>
-                <li>Collaborate on your projects and objectives in absolute syncrony</li>
+                <li>Collaborate on your projects and objectives in absolute sync</li>
+                <li>RealTime monitoring allows uninterrupted workflow</li>
                 <li>Your Data is synced to the cloud instantly and securely</li>
               </ul>
             </div>
@@ -154,12 +161,12 @@
             </div>
             <div class="row body">
               <div class="corner-top-left-small"></div>
-              <p>Trevor's intelligent algorithms always keep you up-to-date with the important stuff in your projects, so you can work smart and save time.</p>
+              <p>Trevor's intelligence always keep you up-to-date with the important stuff in your projects, so you can work smart and save time.</p>
               <ul>
                 <li>Personalized experience</li>
                 <li>Instant, intelligent notifications</li>
                 <li>Progress reports</li>
-                <li>Uninterrupted workflow</li>
+                <li>Trevor constantly evolves to adapt to your needs</li>
               </ul>
             </div>
           </div>
@@ -223,11 +230,16 @@
         <br />
         <h2>About <small>The Project</small></h2>
         <p class="lead gray">
-          We are an organization commited to empowering the human individual, and Trevor is the first step. Our current team consists of bold visionaries, scientists and leaders, aiming to bring that which the future holds, today. You can learn more about our mission from the video below.
+          We are an organization commited to empowering the human individual, and Trevor is the first step. Our current team consists of bold visionaries, scientists and leaders, aiming to bring that which the future holds, today. 
         </p>
-          <p class="text-center">
-          We created Trevor, your personal assistant, for the sole purpose of expanding human capabilities.<br />
-          Trevor's intelligence, combined with his radical interface and powerful functionality is just the empowerment you need in your life.</p>
+        <p class="lead gray">
+          People and technology will always work in sync and collaborate on solving the challanges of life.
+          Our mission, as an organization, a community, and as individuals, is to dedicate our time, knowledge, and resources, to extend the potential of the human individual.
+        </p>
+        <p class="lead gray">
+          We sincerely believe that the personal assistant is the next step in human empowerment. Trevor's intelligence, combined with his radical user interface and powerful functionality is just the empowerment you need in your life, which is why we are so eager that you meet your personal assistant - Trevor.
+        </p>
+
         <hr class="full" />
       </div>
       <div class="col-sm-6">
@@ -240,10 +252,10 @@
         <%= link_to image_tag('socialYoutube.png'), "https://www.youtube.com/channel/UCyXVE3OzZSCntJQiua7m_Ow", target: '_blank' %>
         <br />
         <p class="text-uppercase white">Join The Community</p>
-        <%= link_to image_tag('community.png'), "#", target: '_blank' %>
+        <%= link_to image_tag('community.png'), "#" %>
         <br />
         <p class="text-uppercase white">Press Room</p>
-        <%= link_to image_tag('pressroom.png'), "#", target: '_blank' %>
+        <%= link_to image_tag('pressroom.png'), pressroom_path %>
         <br />
       </div>
     </div>
@@ -252,7 +264,7 @@
 
   <div class="row dark left-padding">
     <div class="container">
-      <h3 class="text-center">Success is a mindset.</h3>
+      <h3 class="text-center">Boldly follow your ambitions</h3>
       <hr class="full" />
       <div class="col-sm-4 full-height">
         <p class="lead"><span class="blue">Set clear goals,</span> into small steps, with visually defined timelines.</p>
@@ -303,22 +315,26 @@
         <p class="lead gray">
           Trevor v1.0 is just the starting step of an ambitios vision, and it all starts now - on iOS / iPhone, with other major platforms due for release within the following months.<br />
         </p>
-        <hr class="full" />
+              <br/>
+      <br/>
       </div>
-
+      <hr class="full" />
       <div class="col-sm-4 pricingText">
-        <h4>Trevor's Monthly subscription</h4>
+        <h4><%= image_tag('check.png') %> Trevor's Monthly subscription</h4>
         <p>Experience Trevor's full functionality for <br/>$4.99/mo.</p>
       </div>
       <div class="col-sm-4 pricingText">
-        <h4>Trevor for Business</h4>
+        <h4><%= image_tag('check.png') %> Trevor for Business</h4>
         <p>Transcend your business into the future for <br/>$2 per member</p>
       </div>
       <div class="col-sm-4 pricingText">
-        <h4>Try Trevor Free for 14 days</h4>
+        <h4><%= image_tag('check.png') %> Try Trevor Free for 14 days</h4>
         <p>Pioneer into a new horizon, absolutley free for <br/>14 days, now</p>
+        <br/>
       </div>
+
       <hr class="full" />
+      <br/>
       <div class="col-sm-12">
         <p class="text-center"><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), root_url %></p>
       </div>
