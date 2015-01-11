@@ -1,8 +1,8 @@
 html, body {
 	height: 100%;
 	max-height: 100%;
-	// background-image: url('<% intro12.jpg %>');
-	background-image: url(image-path('intro12.jpg'));
+	// background-image: url('intro12.jpg');
+	// background-image: url(image-path('intro12.jpg'));
 	// background-repeat: repeat;
 	background-size: cover;
 	// background-position: center 100%;
@@ -35,7 +35,7 @@ footer {
 
 #intro { 
 	// background-image: url('intro28.jpg');
-	background-image: url(image-path('intro28.jpg'));
+	// background-image: url(image-path('intro28.jpg'));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center 0%;
