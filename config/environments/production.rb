@@ -61,13 +61,13 @@ Rails.application.configure do
   # config.assets.precompile += %w( search.js )
   # config.assets.precompile += %w( *.css *.js *.scss *.css.erb *.eot *.svg *.ttf *.woff)
   # config.assets.precompile =  ['*.js', '*.css', '*.css.erb'] 
-  config.assets.precompile += %w(*.css)
+  config.assets.precompile += %w(*.css .svg .eot .woff .ttf)
 
   # Add the fonts path
-  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+  #config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
   # Precompile additional assets
-  config.assets.precompile += %w( .svg .eot .woff .ttf )
+  # config.assets.precompile += %w(  )
 
   # config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
