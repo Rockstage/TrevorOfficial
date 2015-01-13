@@ -18,47 +18,44 @@
 
 
  */
+
+
+
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=cb3926b1-8c24-48fb-a38a-d8120fb219ff");
-@font-face {
-  font-family: "HelveticaNeueW01-UltLt";
-  src: url("Fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
-  src: url("Fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"), url("Fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"), url("Fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"), url("Fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-UltLt";
+src:url("Fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
+src:url("Fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"),url("Fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"),url("Fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"),url("Fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
 }
-
-@font-face {
-  font-family: "HelveticaNeueW01-UltLtI";
-  src: url("Fonts/581e96b6-0e09-44c4-a73e-a4018262ab80.eot?#iefix");
-  src: url("Fonts/581e96b6-0e09-44c4-a73e-a4018262ab80.eot?#iefix") format("eot"), url("Fonts/6a815361-6e47-4eaa-8b82-06b76eca6684.woff") format("woff"), url("Fonts/fdfa66bc-eaee-412a-b193-5b24b4c3b1aa.ttf") format("truetype"), url("Fonts/52604114-1d29-4bbc-8473-b62681fbbb4e.svg#52604114-1d29-4bbc-8473-b62681fbbb4e") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-UltLtI";
+src:url("Fonts/581e96b6-0e09-44c4-a73e-a4018262ab80.eot?#iefix");
+src:url("Fonts/581e96b6-0e09-44c4-a73e-a4018262ab80.eot?#iefix") format("eot"),url("Fonts/6a815361-6e47-4eaa-8b82-06b76eca6684.woff") format("woff"),url("Fonts/fdfa66bc-eaee-412a-b193-5b24b4c3b1aa.ttf") format("truetype"),url("Fonts/52604114-1d29-4bbc-8473-b62681fbbb4e.svg#52604114-1d29-4bbc-8473-b62681fbbb4e") format("svg");
 }
-
-@font-face {
-  font-family: "HelveticaNeueW01-Thin";
-  src: url("Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
-  src: url("Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"), url("Fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"), url("Fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"), url("Fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-Thin";
+src:url("Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
+src:url("Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"),url("Fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"),url("Fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"),url("Fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg");
 }
-
-@font-face {
-  font-family: "HelveticaNeueW01-ThinIt";
-  src: url("Fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix");
-  src: url("Fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix") format("eot"), url("Fonts/b6d63cb7-64b5-4d39-beaf-a8d9fe5eb1df.woff") format("woff"), url("Fonts/284ad777-0022-42a3-9197-c449457c670a.ttf") format("truetype"), url("Fonts/202b6353-ffff-45b1-9a1a-89497323d7ed.svg#202b6353-ffff-45b1-9a1a-89497323d7ed") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-ThinIt";
+src:url("Fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix");
+src:url("Fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix") format("eot"),url("Fonts/b6d63cb7-64b5-4d39-beaf-a8d9fe5eb1df.woff") format("woff"),url("Fonts/284ad777-0022-42a3-9197-c449457c670a.ttf") format("truetype"),url("Fonts/202b6353-ffff-45b1-9a1a-89497323d7ed.svg#202b6353-ffff-45b1-9a1a-89497323d7ed") format("svg");
 }
-
-@font-face {
-  font-family: "HelveticaNeueW01-45Ligh";
-  src: url("Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
-  src: url("Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), url("Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), url("Fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), url("Fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-45Ligh";
+src:url("Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+src:url("Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"),url("Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"),url("Fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"),url("Fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
 }
-
-@font-face {
-  font-family: "HelveticaNeueW01-46Ligh";
-  src: url("Fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
-  src: url("Fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"), url("Fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"), url("Fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"), url("Fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-46Ligh";
+src:url("Fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
+src:url("Fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"),url("Fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"),url("Fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"),url("Fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg");
 }
-
-@font-face {
-  font-family: "HelveticaNeueW01-55Roma";
-  src: url("Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
-  src: url("Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"), url("Fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"), url("Fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"), url("Fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+@font-face{
+font-family:"HelveticaNeueW01-55Roma";
+src:url("Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
+src:url("Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"),url("Fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"),url("Fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"),url("Fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
 }
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)
@@ -6862,36 +6859,53 @@ button.close {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
 }
-/* line 1, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+@font-face {
+  font-family: 'Roboto';
+  src: url(/Roboto-Thin.eot);
+  src: url(/Roboto-Thin.eot?#iefix) format("embedded-opentype"), url(/assets/Roboto-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/Roboto-Regular.eot);
+  src: url(/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(/assets/Roboto-Regular.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* line 19, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 html, body {
   height: 100%;
   max-height: 100%;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
-  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* line 16, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 49, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .container-fluid {
   height: 100%;
   padding: 0;
 }
 
-/* line 22, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 55, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 footer {
   padding: 20px;
   color: gray;
 }
-/* line 26, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 59, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 footer p {
   margin: 0;
 }
-/* line 29, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 62, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 footer a {
   color: #4a90e2;
 }
 
-/* line 35, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 68, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 #intro {
   background-size: cover;
   background-repeat: no-repeat;
@@ -6899,29 +6913,29 @@ footer a {
   height: 100vh;
   min-height: 780px;
 }
-/* line 43, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 76, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 #intro h1 {
   margin-top: 180px;
 }
-/* line 46, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 79, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 #intro p {
   font-size: 1.8em;
   font-weight: lighter;
 }
 
-/* line 54, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 87, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 #aboutUs .container {
   padding-bottom: 30px;
 }
 
-/* line 59, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 92, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .darkGlass {
   background-color: rgba(0, 0, 0, 0.5);
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
 
-/* line 66, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 99, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .corner-top-left {
   position: relative;
   top: 0;
@@ -6932,7 +6946,7 @@ footer a {
   border-left: 30px solid white;
 }
 
-/* line 76, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 109, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .corner-top-left-small {
   position: relative;
   top: 0;
@@ -6943,7 +6957,7 @@ footer a {
   border-left: 15px solid white;
 }
 
-/* line 86, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 119, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .corner-top-right {
   position: relative;
   top: 0;
@@ -6954,7 +6968,7 @@ footer a {
   border-right: 30px solid white;
 }
 
-/* line 96, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 129, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .corner-bottom-left {
   position: relative;
   bottom: 0;
@@ -6965,7 +6979,7 @@ footer a {
   border-left: 30px solid white;
 }
 
-/* line 106, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 139, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .corner-bottom-right {
   position: relative;
   bottom: 0;
@@ -6980,37 +6994,37 @@ footer a {
 /* Landscape phone to portrait tablet */
 /* Portrait tablet to landscape and desktop */
 /* Large desktop */
-/* line 178, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 211, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .blue {
   color: #73ccff !important;
 }
 
-/* line 181, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 214, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .orange {
   color: #f5a623 !important;
 }
 
-/* line 184, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 217, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .zen {
   color: #50e3c2 !important;
 }
 
-/* line 187, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 220, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .white {
   color: rgba(255, 255, 255, 0.8) !important;
 }
 
-/* line 190, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 223, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .gray {
   color: rgba(255, 255, 255, 0.6) !important;
 }
 
-/* line 193, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 226, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .thin {
   font-weight: 100;
 }
 
-/* line 202, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 235, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .dark h1,
 .dark h2,
 .dark h3,
@@ -7020,63 +7034,63 @@ footer a {
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 206, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 239, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 h1 {
   font-size: 7em;
   font-weight: 100;
 }
 
-/* line 210, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 243, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 h2 {
   font-size: 5em;
   font-weight: 100;
 }
 
-/* line 215, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 248, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 h3 {
   font-size: 3em;
   font-weight: 100;
 }
 
-/* line 220, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 253, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 h4 {
   font-size: 2em;
   font-weight: 200;
 }
 
-/* line 225, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 258, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 h5 {
   font-size: 1.5em;
   font-weight: 200;
 }
 
-/* line 230, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 263, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 hr {
   width: 60%;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin: 50px 0;
 }
-/* line 234, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 267, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 hr.full {
   width: 100%;
 }
 
-/* line 239, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 272, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .arrow-down-small {
   width: 100px;
 }
 
-/* line 243, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 276, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .full-height {
   height: 100%;
 }
 
-/* line 247, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 280, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .vertical-allign {
   vertical-allign: middle;
 }
 
-/* line 257, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 290, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .sectionReset {
   width: 100vw;
   max-width: 46em;
@@ -7088,14 +7102,14 @@ hr.full {
   font-size: 1.8em;
 }
 
-/* line 269, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 302, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 #myCarousel {
   height: 100vh;
   min-height: 600px;
   width: 100%;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
 }
-/* line 275, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 308, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 #myCarousel .item {
   height: 100vh;
   min-height: 600px;
@@ -7104,20 +7118,20 @@ hr.full {
   background-position: center;
 }
 
-/* line 284, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 317, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-inner {
   max-height: 100vh;
   min-height: 600px;
 }
 
 @media (max-width: 767px) {
-  /* line 289, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 322, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   .carousel-indicators {
     margin-bottom: 50px;
   }
 }
 
-/* line 295, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 328, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption {
   position: absolute;
   bottom: 100px;
@@ -7147,36 +7161,36 @@ hr.full {
   -o-animation: fadein 1s;
   animation: fadein 1s;
 }
-/* line 308, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 341, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption h1 {
   font-weight: 100;
   font-size: 3em;
 }
-/* line 311, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 344, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption h1 a {
   color: white;
   text-decoration: none;
 }
-/* line 314, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 347, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption h1 a:hover {
   color: #73CCFF;
 }
-/* line 319, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 352, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption p {
   font-size: 1.2em;
   font-weight: 300;
 }
-/* line 322, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 355, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption p a {
   color: white;
   text-decoration: none;
 }
-/* line 325, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 358, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .carousel-caption p a:hover {
   color: #F5A623;
 }
 @media (max-width: 767px) {
-  /* line 295, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 328, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   .carousel-caption {
     position: absolute;
     height: 30%;
@@ -7185,105 +7199,105 @@ hr.full {
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  /* line 338, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 371, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   .carousel-caption p {
     font-size: 1.5em;
   }
-  /* line 341, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 374, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   .carousel-caption h1 {
     font-size: 3em;
   }
 }
 
-/* line 363, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 396, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .storeButton {
   height: 70px;
   opacity: 0.9;
 }
 
-/* line 368, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 401, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 a:hover {
   opacity: 1;
   transition: 0.5s;
 }
 
-/* line 374, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 407, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 a.meetTrevor {
   color: #00ccff;
   opacity: 0.5;
   text-decoration: none;
 }
-/* line 378, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 411, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 a.meetTrevor:hover {
   opacity: 1;
   transition: 1s;
 }
 
-/* line 384, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 417, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .socialLinks {
   padding-left: 20px;
 }
-/* line 386, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 419, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .socialLinks a {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #73ccff;
 }
-/* line 391, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 424, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .socialLinks a img {
   width: 50px;
   margin: 15px 25px 40px 25px;
 }
-/* line 394, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 427, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .socialLinks a img:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
 }
-/* line 400, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 433, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .socialLinks p {
   margin-bottom: 0;
 }
 
-/* line 405, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 438, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .feedback {
   margin: 25px 0;
 }
-/* line 407, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 440, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .feedback p {
   padding-left: 50px;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 412, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 445, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .feedback1 {
   margin: 25px 0;
 }
-/* line 414, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 447, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .feedback1 p {
   border-left: none;
   margin-left: 50px;
 }
 
-/* line 420, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 453, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .introCircle {
   height: 125px;
   margin: 0 50px;
 }
 
-/* line 427, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 460, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .pricingText p {
   margin-bottom: 35px;
   color: #73ccff;
   font-size: 1.2em;
   font-weight: 300;
 }
-/* line 433, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 466, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .pricingText img {
   width: 25px;
   padding-bottom: 5px;
 }
 
-/* line 439, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 472, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .techCard {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.8);
@@ -7291,55 +7305,55 @@ a.meetTrevor:hover {
   text-align: left;
   padding-bottom: 10px;
 }
-/* line 445, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 478, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .techCard .heading {
   border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
-/* line 448, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 481, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .techCard h1 {
   margin-left: 25px;
 }
-/* line 451, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 484, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .techCard p {
   margin-left: 50px;
 }
-/* line 454, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 487, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .techCard ul {
   margin-left: 65px;
 }
 
-/* line 467, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 500, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 0% {
   background: red;
 }
 
-/* line 468, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 501, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 25% {
   background: yellow;
 }
 
-/* line 469, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 502, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 50% {
   background: blue;
 }
 
-/* line 470, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 503, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 100% {
   background: green;
 }
 
 @keyframes fadein {
-  /* line 473, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 506, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 474, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 507, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 475, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 508, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   100% {
     opacity: 1;
   }
@@ -7347,17 +7361,17 @@ a.meetTrevor:hover {
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-  /* line 480, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 513, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 481, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 514, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 482, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 515, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   100% {
     opacity: 1;
   }
@@ -7365,17 +7379,17 @@ a.meetTrevor:hover {
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-  /* line 487, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 520, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 488, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 521, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 489, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 522, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   100% {
     opacity: 1;
   }
@@ -7383,17 +7397,17 @@ a.meetTrevor:hover {
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-  /* line 494, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 527, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 495, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 528, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 496, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 529, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   100% {
     opacity: 1;
   }
@@ -7401,23 +7415,23 @@ a.meetTrevor:hover {
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-  /* line 501, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 534, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 502, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 535, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   50% {
     opacity: 0;
   }
 
-  /* line 503, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 536, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   100% {
     opacity: 1;
   }
 }
 
-/* line 510, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 543, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .fadeIn {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
@@ -7430,7 +7444,7 @@ a.meetTrevor:hover {
   animation-fill-mode: forwards;
 }
 
-/* line 521, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 554, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .fadeIn-3s {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
@@ -7438,7 +7452,7 @@ a.meetTrevor:hover {
   animation-duration: 3s;
 }
 
-/* line 527, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 560, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .fadeIn-5s {
   -webkit-animation-duration: 5s;
   -moz-animation-duration: 5s;
@@ -7446,7 +7460,7 @@ a.meetTrevor:hover {
   animation-duration: 5s;
 }
 
-/* line 534, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 567, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .fadeIn-Delay-3s {
   -webkit-animation-delay: 3s;
   -moz-animation-delay: 3s;
@@ -7454,7 +7468,7 @@ a.meetTrevor:hover {
   animation-delay: 3s;
 }
 
-/* line 540, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 573, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .fadeIn-Delay-5s {
   -webkit-animation-delay: 5s;
   -moz-animation-delay: 5s;
@@ -7463,54 +7477,54 @@ a.meetTrevor:hover {
 }
 
 @-webkit-keyframes fadeIn {
-  /* line 547, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 580, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   from {
     opacity: 0;
   }
 
-  /* line 547, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 580, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   to {
     opacity: 1;
   }
 }
 
 @-moz-keyframes fadeIn {
-  /* line 548, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 581, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   from {
     opacity: 0;
   }
 
-  /* line 548, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 581, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   to {
     opacity: 1;
   }
 }
 
 @-o-keyframes fadeIn {
-  /* line 549, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 582, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   from {
     opacity: 0;
   }
 
-  /* line 549, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 582, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   to {
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
-  /* line 550, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 583, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   from {
     opacity: 0;
   }
 
-  /* line 550, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+  /* line 583, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
   to {
     opacity: 1;
   }
 }
 
-/* line 555, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
+/* line 588, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/main.css.scss */
 .dark-gradient {
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC42Ii8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 10%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.25) 90%, rgba(0, 0, 0, 0) 100%);

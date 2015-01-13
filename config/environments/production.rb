@@ -61,7 +61,9 @@ Rails.application.configure do
   # config.assets.precompile += %w( search.js )
   # config.assets.precompile += %w( *.css *.js *.scss *.css.erb *.eot *.svg *.ttf *.woff)
   # config.assets.precompile =  ['*.js', '*.css', '*.css.erb'] 
-  config.assets.precompile += %w(*.css)
+  config.assets.precompile += %w(*.css .svg .eot .woff .ttf)
+
+  # config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
