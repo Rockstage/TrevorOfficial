@@ -9,6 +9,8 @@ html, body {
 	// background-size: 33%;
 	background-attachment: fixed;
 
+	font-family: "Helvetica Neue", "Roboto", sans-serif;
+
 }
 
 .container-fluid {
@@ -18,12 +20,9 @@ html, body {
 }
 
 footer {
-	padding: 5px 12px;
-	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	// background-color: rgba(255,255,255,0.1);
 	color: gray;
-	display: block;
-	position: fixed;
-	bottom: 0;
 	p {
 		margin: 0;
 	}

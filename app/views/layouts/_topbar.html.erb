@@ -1,0 +1,31 @@
+<header id="ha-header" class="ha-header ha-header-large">
+    <div class="ha-header-perspective">
+        <div class="ha-header-front">
+          
+          <h1>
+            <%= image_tag('AppIconClippedSmall.png', class: "appIcon") %>
+            <span>
+              <%= link_to "T R E V O R", root_path %>
+
+            </span>
+            <span class="badge">iOS / iPhone</span>
+            <!-- <span class="badge">Android (soon)</span>
+            <span class="badge">Web (soon)</span> -->
+          </h1>
+          <nav id="nav-anchor">
+            <%= yield :menulinks %>
+          </nav>
+        </div>
+        <div class="ha-header-bottom">
+            <nav>
+                Core Features: 
+                <a data-target="#myCarousel" data-slide-to="0">Task Management</a>
+                <a data-target="#myCarousel" data-slide-to="1">Time Management</a>
+                <a data-target="#myCarousel" data-slide-to="2">Project Management</a>
+                <a data-target="#myCarousel" data-slide-to="3">Collaboration</a>
+                <a data-target="#myCarousel" data-slide-to="4">Personal Assistance</a>
+                <a data-target="#myCarousel" data-slide-to="5">Trevor</a>
+            </nav>
+        </div>
+    </div>
+</header>

@@ -10,6 +10,8 @@
   <meta name="author" content="">
   <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
 
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 
   <%= csrf_meta_tags %>
@@ -27,7 +29,11 @@
 
       <!-- FOOTER -->
       <footer>
-        <p><%= "© 2014, George Petrov & Niki Georgiev" %> · <a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a> · <%= link_to "Support", support_path %></p>
+        <div class="container text-center">
+          <p><%= link_to "Support", support_path %> · <%= link_to "Press Room", pressroom_path %></p>
+          <p>© 2014, George Petrov & Niki Georgiev</p>
+          <p><a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a></p>
+        </div>
       </footer>
    
     </div><!-- /.container-fluid -->
