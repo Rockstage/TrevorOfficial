@@ -11,4 +11,6 @@ class HomeController < ApplicationController
   def pressroom
   end
   
+  def community
+  end
 end

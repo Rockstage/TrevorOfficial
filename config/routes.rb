@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'meet_trevor', to: 'home#meet_trevor', as: 'meet_trevor'
   get 'support', to: 'home#support', as: 'support'
   get 'pressroom', to: 'home#pressroom', as: 'pressroom'
+  get 'community', to: 'home#community', as: 'community'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
