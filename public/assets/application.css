@@ -7746,21 +7746,20 @@ section p {
 .appIcon {
   margin: 0;
   height: 80%;
+  width: auto;
+  padding: 10px;
   max-height: 100px;
   min-height: 70px;
-  padding: 10px;
-  max-width: 100px;
-  border-radius: 10px;
 }
 
-/* line 181, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 180, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header h1::before,
 .ha-header nav::before {
   content: '';
   height: 100%;
 }
 
-/* line 186, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 185, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header h1::after {
   content: '';
   width: 100px;
@@ -7779,12 +7778,12 @@ section p {
   transition: opacity 0.5s;
 }
 
-/* line 204, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 203, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header nav {
   height: 100%;
 }
 
-/* line 208, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 207, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header nav a {
   display: inline-block;
   text-transform: uppercase;
@@ -7799,31 +7798,31 @@ section p {
   text-decoration: none;
 }
 
-/* line 222, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 221, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header nav a:hover {
   color: white;
 }
 
-/* line 226, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 225, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header nav a:last-child {
   margin-right: 0;
 }
 
-/* line 231, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 230, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header .ha-header-front nav a:first-child,
 .ha-header .ha-header-front nav a:last-child {
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 5px;
 }
 
-/* line 237, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 236, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header .ha-header-front nav a:first-child:hover,
 .ha-header .ha-header-front nav a:last-child:hover {
   border: 1px solid white;
 }
 
 /* Individual states */
-/* line 243, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 242, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-large {
   height: 180px;
   /*	.ha-header-perspective {
@@ -7838,22 +7837,22 @@ section p {
   		}
   	}*/
 }
-/* line 246, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 245, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-large .ha-header-front {
   height: 180px;
 }
 
-/* line 262, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 261, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-small {
   /*height: 220px;*/
   height: 140px;
 }
-/* line 267, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 266, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-small .ha-header-perspective .ha-header-front {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 273, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 272, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-hide {
   height: 220px;
   -webkit-transform: translateY(-50%);
@@ -7861,7 +7860,7 @@ section p {
   transform: translateY(-50%);
 }
 
-/* line 280, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 279, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-show {
   height: 220px;
   -webkit-transform: translateY(0%);
@@ -7869,7 +7868,7 @@ section p {
   transform: translateY(0%);
 }
 
-/* line 287, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 286, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-show .ha-header-bottom {
   opacity: 0;
   -webkit-transition: top 0.5s, opacity 0s 0.5s;
@@ -7881,7 +7880,7 @@ section p {
   top: 0%;
 }
 
-/* line 298, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
+/* line 297, /Users/George/Documents/WebDev/Projects/trevor/app/assets/stylesheets/component.css.scss */
 .ha-header-subshow {
   height: 220px;
   color: white;
