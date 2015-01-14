@@ -168,11 +168,9 @@ section p {
 
 .appIcon {
 	margin: 0;
-	height: 80%;
-	width: auto;
+	height: 100px;
+	width: 100px;
 	padding: 10px;
-	max-height: 100px;
-	min-height: 70px;
 }
 
 .ha-header h1::before,
@@ -266,6 +264,10 @@ section p {
 			background-color: rgba(0,0,0,0.5);
 		}
 	}
+	.appIcon {
+		height: 70px;
+		width: 70px;
+	}
 }
 
 .ha-header-hide {
@@ -296,7 +298,10 @@ section p {
 .ha-header-subshow {
 	height: 220px;
 	color: white;
-
+	.appIcon {
+		height: 85px;
+		width: 85px;
+	}
 }
 
 .ha-header-subshow .ha-header-bottom {
