@@ -66,7 +66,7 @@ Rails.application.configure do
   #config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
   # Precompile additional assets
-  config.assets.precompile += %w(*.css *.eot *.svg *.ttf *.woff)
+  config.assets.precompile += %w(*.css)
 
   # config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 

@@ -1,8 +1,8 @@
 @font-face {
    font-family: 'Roboto';
-    src: url('/assets/Roboto-Thin.eot');
-    src: url('/assets/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
-         url('/assets/Roboto-Thin.ttf') format('truetype');
+    src: asset-url('Roboto-Thin.eot');
+    src: asset-url('Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+         asset-url('Roboto-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
