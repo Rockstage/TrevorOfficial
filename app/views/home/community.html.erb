@@ -1,0 +1,40 @@
+<% content_for :menulinks do %>
+  <%= link_to "back to Home", root_path %>
+<% end %>
+
+<div id="supportPage" class="darkGlass row dark left-padding">
+	<div class="corner-top-left"></div>
+	<div class="container">
+	  <div class="col-md-12">
+	    <h2 style="padding-top: 100px;">Community forum coming soon...</h2>
+	    <p class="lead gray">
+	      In the mean time feel free to contact us.
+	    </p>
+	    <hr class="full" style="margin-top: 20px;" />
+	  </div>
+	  <div class="col-sm-4 socialLinks text-center">
+	    <p class="text-uppercase white">Contact us via:</p>
+		<%= link_to image_tag('email.png'), "mailto:admin@trevorcorporation.com" %><br>
+		
+	  </div>
+	  <div class="col-sm-4 socialLinks text-center">
+	    <p class="text-uppercase white">Social Links</p>
+	    <%= link_to image_tag('socialFacebook.png'), "http://www.facebook.com/trevorcorporation", target: '_blank' %>
+	    <br/>
+	    <%= link_to image_tag('socialTwitter.png'), "http://www.twitter.com/TREVORCORP", target: '_blank' %>
+	    <br/>
+	    <%= link_to image_tag('socialYoutube.png'), "https://www.youtube.com/channel/UCyXVE3OzZSCntJQiua7m_Ow", target: '_blank' %>
+	    <br />
+	  </div>
+	  <div class="col-sm-4 socialLinks text-center">
+	    <p class="text-uppercase white">Press Room</p>
+	    <%= link_to image_tag('pressroom.png'), pressroom_path %>
+	    <br />
+	  </div>
+	  <div class="col-sm-12">
+	  	<hr class="full" style="margin: 20px 0;" />
+		<%= link_to "Back", root_url %></p>
+	  </div>
+	</div>
+	<!-- <div class="corner-bottom-right"></div> -->
+</div>
