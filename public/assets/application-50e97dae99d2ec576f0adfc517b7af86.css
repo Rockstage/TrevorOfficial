@@ -20,6 +20,21 @@
 
  */
 
+@font-face {
+  font-family: 'Roboto';
+  src: url("/assets/Roboto-Thin.eot");
+  src: url("/assets/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("/assets/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/Roboto-Regular.eot);
+  src: url(/fonts/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(/assets/Roboto-Regular.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
