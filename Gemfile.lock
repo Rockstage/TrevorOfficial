@@ -54,6 +54,7 @@ GEM
     minitest (5.4.3)
     multi_json (1.10.1)
     netrc (0.7.7)
+    non-stupid-digest-assets (1.0.4)
     parse_resource (1.8.0)
       activemodel
       activesupport
@@ -131,6 +132,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  non-stupid-digest-assets
   parse_resource (~> 1.8.0)
   pg
   rails (= 4.1.4)

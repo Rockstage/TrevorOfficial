@@ -13,7 +13,7 @@ group :production do
 	gem 'rails_12factor'
 end
 
-
+gem "non-stupid-digest-assets"
 # gem 'rails_serve_static_assets', group: :production
 
 # Use SCSS for stylesheets
