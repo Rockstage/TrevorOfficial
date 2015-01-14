@@ -1,6 +1,8 @@
+html {
+	height: 100%;
+}
 
-
-html, body {
+body {
 	height: 100%;
 	max-height: 100%;
 	// background-image: url('intro12.jpg');
@@ -109,7 +111,7 @@ footer {
 .corner-top-right {
 	position: relative;
 	top: 0;
-	left: 98%;
+	right: 0;
 	width: 0; 
 	height: 0; 
 	border-bottom: 30px solid transparent;
@@ -129,7 +131,7 @@ footer {
 .corner-bottom-right {
 	position: relative;
 	bottom: 0;
-	left: 98%;
+	right: 0;
 	width: 0; 
 	height: 0; 
 	border-top: 30px solid transparent;
