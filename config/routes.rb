@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'support', to: 'home#support', as: 'support'
   get 'pressroom', to: 'home#pressroom', as: 'pressroom'
   get 'community', to: 'home#community', as: 'community'
+  get 'get_started', to: 'home#get_started', as: 'get_started'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

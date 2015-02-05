@@ -13,4 +13,7 @@ class HomeController < ApplicationController
   
   def community
   end
+
+  def get_started
+  end
 end
