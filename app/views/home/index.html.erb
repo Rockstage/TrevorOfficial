@@ -292,9 +292,59 @@
         <p class="text-center"><%= link_to image_tag('iPhoneStore.png', class: 'storeButton'), "https://appsto.re/us/DkRk4.i", target: '_blank' %></p>
       </div>
     </div>
+  </div>
+
+    <div class="row dark left-padding">
+      <div class="container">
+        <h3 class="text-center" style="margin-top: 50px;">Join the conversation...</h3>
+        <p class="text-center">Welcome to the Trevor Community, where Tech, Artificial Intelligence and Personal Growth venture us step by step into the future.</p>
+        <hr class="full" style="margin-top: 20px;"/>
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'trevorcommunity';
+            
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        
+      </div>
+    </div>
+    <!-- FOOTER -->
+      <footer>
+        <hr class="full">
+        <div class="container text-center">
+          <p><%= link_to "Support", support_path %> · <%= link_to "Community", community_path %> · <%= link_to "Press Room", pressroom_path %></p>
+          <p>© 2014, George Petrov & Niki Georgiev</p>
+          <p><a href="//www.iubenda.com/privacy-policy/943014" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> · <a href="#" data-toggle="modal" data-target="#TermsAndConditions">Terms and Conditions</a></p>
+        </div>
+      </footer>
+
+
+
+
     <!-- <div class="corner-bottom-right"></div> -->
   </div>
 
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'trevorcommunity';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
     
 
 
