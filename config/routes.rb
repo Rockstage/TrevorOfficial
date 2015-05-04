@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'blog/index'
+  # get 'blog/index'
 
   get 'home/index'
 
@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'pressroom', to: 'home#pressroom', as: 'pressroom'
   get 'community', to: 'home#community', as: 'community'
   get 'get_started', to: 'home#get_started', as: 'get_started'
+  get 'blog', to: 'blog#index', as: 'blog'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
